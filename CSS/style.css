@@ -1,0 +1,112 @@
+body {
+  background-color: gray;
+}
+
+.MainNav {
+  display: inline-block;
+}
+
+.NavHome {
+    background-color: #04AA6D;
+    color: white;
+    padding: 1%;
+    font-size: 16px;
+   /* position: relative;*/
+   display: inline-block;
+  }
+
+  #NavidCustomer {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  #NavidPartnership {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+  }
+  .NavContact {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .NavSignIn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .NavSignUp {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .NavCustomer {
+    /*position: relative;
+     display: inline-block;*/
+     display: inline-block;
+  }
+
+  .NavPartnership {
+    /*position: relative;
+    display: inline-block;*/
+    display: inline-block;
+  } 
+  
+
+  .ContentNavCustomer {
+    display: none;
+   /* position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;*/
+  }
+
+  .ContentNavCustomer a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } 
+
+  .ContentNavPartnership {
+    display: none;
+   /* position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;*/
+  }
+
+  .ContentNavPartnership a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+.ContentNavPartnership a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.NavPartnership:hover .ContentNavPartnership {display: block;}
+
+  /* Change color of dropdown links on hover */
+  .ContentNavCustomer a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .NavCustomer:hover .ContentNavCustomer {display: block;}
+  
+  
