@@ -212,11 +212,11 @@ body {
 }
 
 #idLandingImg {
-  background-image: url("../images/farmer.jpg");
+  background-image: url("./images/farmer.jpg");
 }
 
 #idLandingImgCons {
-  background-image: url("../images/construction.jpg");
+  background-image: url("./images/construction.jpg");
 }
 
 #idLandingImg, #idLandingImgCons {
