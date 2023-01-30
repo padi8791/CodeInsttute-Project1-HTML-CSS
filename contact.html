@@ -9,15 +9,14 @@
     <title>Buyam & Sellam - Online african shop</title>
 </head>
 <body>
-    <header>
-          <div class="banner">
-            <p>
-              <span id="idSpanLogo">B&S</span>
-              <span id="idSpanMKT">VILLAGE MARKET PLACE :</span> BUYAM SELLAM
-            </p>
-          </div> 
-    </header>
-    <nav>
+  <header>
+    <div class="banner">
+      <p>
+        <span id="idSpanLogo">B&S</span>
+        <span id="idSpanMKT">VILLAGE MARKET PLACE :</span> BUYAM SELLAM
+      </p>
+    </div> 
+</header>    <nav>
         <div class="navbar">
             <a href="index.html" id="LinkHome">Home</a>
             <div class="subnav">
@@ -80,23 +79,44 @@
     </nav>
     <main>
         <aside class="BodyAsideLeft">
-          <div class="idAdvertLeft0">
-            <p>We collect from various farmers and make available in quantity</p>
+        <div class="idAdvertLeft0">
+          <p>We collect from various farmers and make available in quantity</p>
+        </div>
+          <div class="idAdvertLeft1">
+            <p><a href="construction.html">Order</a> </p>
           </div>
-            <div class="idAdvertLeft1">
-              <p><a href="construction.html">Order</a> </p>
-            </div>
-            <div class="idAdvertLeft2">
-              <p><a href="construction.html">Order</a> </p>
-            </div>
-            <div class="idAdvertLeft3">
-              <p><a href="construction.html">Order</a></p>
-            </div>
+          <div class="idAdvertLeft2">
+            <p><a href="construction.html">Order</a> </p>
+          </div>
+          <div class="idAdvertLeft3">
+            <p><a href="construction.html">Order</a></p>
+          </div>
         </aside>
         <div class="BodyMiddle">
-            <div id="idLandingImg">
-              <p>Bridging african farmers!</p>
-            </div>
+            <form action="construction.html" method="post" id="idformContact">
+                <div id="idInputContact">
+                    <p id="idParaContact">Contact us</p>
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Enter your name.." required>
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Enter your last name..">
+                    </div>
+                    <div> 
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div>           
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Enter your message" style="height:200px" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>              
+                </div>
+            </form>
         </div>
         <div class="BodyProductList">
           <div class="idAdvertLeft0">
@@ -138,6 +158,7 @@
             <p><a href="construction.html">Order</a></p>
           </div>
         </aside>
+
     </main>
     <footer>
       <div class="navFooter">
