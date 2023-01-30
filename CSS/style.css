@@ -442,15 +442,15 @@ body {
 
 @keyframes adVertLeft1 {
     from {
-      background-image: url("../images/tomato.jpg");
+      background-image: url("./images/tomato.jpg");
     }
      to {
-      background-image: url("../images/potato.jpg");
+      background-image: url("./images/potato.jpg");
     }
 }
 
 .idAdvertLeft1 {
-  background-image: url("../images/tomato.jpg");
+  background-image: url("./images/tomato.jpg");
   background-size: 85% 100%;
   margin-bottom: 0%;
   animation-name: adVertLeft1;
@@ -462,15 +462,15 @@ body {
 
 @keyframes adVertLeft2 {
   from {
-    background-image: url("../images/carot.jpg");
+    background-image: url("./images/carot.jpg");
   }
    to {
-    background-image: url("../images/macabo.jpg");
+    background-image: url("./images/macabo.jpg");
   }
 }
 
 .idAdvertLeft2 {
-  background-image: url("../images/carot.jpg");
+  background-image: url("./images/carot.jpg");
   background-size: 85% 100%;
   animation-name: adVertLeft2;
   animation-duration: 7s;
@@ -481,15 +481,15 @@ body {
 
 @keyframes adVertLeft3 {
   from {
-    background-image: url("../images/plantain.jpg");
+    background-image: url("./images/plantain.jpg");
   }
    to {
-    background-image: url("../images/cocoa.jpg");
+    background-image: url("./images/cocoa.jpg");
   }
 }
 
 .idAdvertLeft3 {
-  background-image: url("../images/plantain.jpg");
+  background-image: url("./images/plantain.jpg");
   background-size: 85% 100%;
   animation-name: adVertLeft3;
   animation-duration: 6s;
@@ -503,12 +503,12 @@ body {
     background-image: url("../images/manioc.jpg");
   }
    to {
-    background-image: url("../images/palmnuts.jpg");
+    background-image: url("./images/palmnuts.jpg");
   }
 }
 
 .idAdvertRight1 {
-  background-image: url("../images/manioc.jpg");
+  background-image: url("./images/manioc.jpg");
   background-size: 85% 100%;
   margin-top: 5%;
   animation-name: adVertRight1;
@@ -520,15 +520,15 @@ body {
 
 @keyframes adVertRight2 {
   from {
-    background-image: url("../images/peanuts.jpg");
+    background-image: url("./images/peanuts.jpg");
   }
    to {
-    background-image: url("../images/beans.jpg");
+    background-image: url("./images/beans.jpg");
   }
 }
 
 .idAdvertRight2 {
-  background-image: url("../images/peanuts.jpg");
+  background-image: url("./images/peanuts.jpg");
   background-size: 85% 100%;
   animation-name: adVertRight2;
   animation-duration: 4s;
@@ -539,14 +539,14 @@ body {
 
 @keyframes adVertRight3 {
   from {
-    background-image: url("../images/pepper.jpg");
+    background-image: url("./images/pepper.jpg");
   }
    to {
-    background-image: url("../images/coffee.jpg");
+    background-image: url("./images/coffee.jpg");
   }
 }
 .idAdvertRight3 {
-  background-image: url("../images/pepper.jpg");
+  background-image: url("./images/pepper.jpg");
   background-size: 85% 100%;
   animation-name: adVertRight3;
   animation-duration: 3s;
