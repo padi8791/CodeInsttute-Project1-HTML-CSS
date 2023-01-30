@@ -212,7 +212,7 @@ body {
 }
 
 #idLandingImg {
-  background-image: url("/images/farmer.jpg");
+  background-image: url("../images/farmer.jpg");
 }
 
 #idLandingImgCons {
