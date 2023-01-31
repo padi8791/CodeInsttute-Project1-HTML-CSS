@@ -1,202 +1,212 @@
+
+/* we do not want our containers and boxes within elements to wrap when they are beyond the size of the element due to white spaces */
+
 nav, .subnav, .navFooter, header, body {
  
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
+/* styling the container of mai menu bar */
 .subnav {
   
-  margin: 0;
-  padding: 0%;
+    margin: 0;
+    padding: 0%;
 }
 
+/*  styling the body of all pages*/
 body {
-  /*background-color: rgb(170, 166, 166);*/
      background-color: white;
      font-family: monospace;
      margin: 0;
      font-size: 0;
-  }
+}
 
-  main {
+/* Styling the container main with a font-size of 0 in order to align all the boxes within to fit 100% of the page */
+main {
   
-    font-size: 0;
-    margin-bottom: 10%;
-  }
+      font-size: 0;
+      margin-bottom: 10%;
+}
 
-  #idSpanMKT, #idSpanLogo {
+/* Styling the message of the Logo and the banner*/
+#idSpanMKT, #idSpanLogo {
     font-family: calibri;
     font-size: xx-large;
     color: black;
     font-weight: bolder;
-}
-
-  @media screen and (max-width: 400px) {
-        body {
-          font-size: 0.75em;
-        }
-
-        #idSpanMKT, #idSpanLogo {
-          font-size: large;
-        }
-        .ClassGetInTouch ul, .ClassMyAccount ul, .ClassAboutUs ul, .ClassCopyright ul, .subnav-content, .subnav-contentLanguage { 
-          font-size: 0.50em;
-        }
-        .subnav-content ul li, .subnav-contentLanguage ul li { 
-          padding-bottom: 5% ;
-        }
-        
-        .idAdvertLeft0 p, .idAdvertRight0 p, #idInputContact div , #idInputLogin  div, #idInputSignUp div {
-          font-size: 1rem;
-          font-weight: bolder;
-        }
-
-        .idAdvertLeft1 p, .idAdvertLeft2 p, .idAdvertLeft3 p, .idAdvertRight1 p, .idAdvertRight2 p, .idAdvertRight3 p {
-          font-size: 0.50rem;
-          padding-top: 50%;
-        }
-
-        #idLandingImg p {
-          font-size: 1rem;
-        }
-
-        .BodyAsideLeft, .BodyAsideRight {
-          display: none;
-        }
-
-        .BodyProductList {
-          display: block;
-        }
-        .BodyMiddle {
-          width: 100%;
-        }
   }
 
-  @media screen and (min-width: 401px)  and (max-width: 600px) {
-        body {
-         font-size: 0.75em;
-        }
+/* This section is for responsive design. We are styling the pages according to the size of the viewport*/
 
-        #idSpanMKT, #idSpanLogo {
-          font-size: 200%;
-        }
-        .ClassGetInTouch ul, .ClassMyAccount ul, .ClassAboutUs ul, .ClassCopyright ul, .subnav-content, .subnav-contentLanguage { 
-          font-size: 0.90em;
-        }
-
-        .subnav-content ul li, .subnav-contentLanguage ul li { 
-          padding-bottom: 5% ;
-        }
-
-        .idAdvertLeft0 p, .idAdvertRight0 p, #idInputContact div , #idInputLogin  div, #idInputSignUp div {
-          font-size: 1rem;
-        }
-
-        .idAdvertLeft1 p, .idAdvertLeft2 p, .idAdvertLeft3 p, .idAdvertRight1 p, .idAdvertRight2 p, .idAdvertRight3 p {
-          font-size: 0.60rem;
-          padding-top: 40%;
-        }
-
-        #idLandingImg p {
-          font-size: 1.4rem;
-        }
-
-        .BodyProductList {
-          display: none;
-        }
-
-        .BodyAsideLeft, .BodyAsideRight {
-          display: inline-block;
-        }
-
-        .BodyMiddle {
-          width: 70%;
-        }
+/* very small screens */
+@media screen and (max-width: 400px) {
+        
+  /* setting the default font size of the body of the page */
+  body {
+    font-size: 0.75em;
   }
 
-  @media screen and (min-width: 601px) {
-        body {
-          font-size: 1.1em;
-        }
-        
-        #idSpanMKT, #idSpanLogo {
-          font-size: 250%;
-        }
+  /* Styling the message of the Logo and the banner*/     
+  #idSpanMKT, #idSpanLogo {
+    font-size: large;
+  }
 
-        .ClassGetInTouch ul, .ClassMyAccount ul, .ClassAboutUs ul, .ClassCopyright ul, .subnav-content, .subnav-contentLanguage { 
-            font-size: 0.90em;
-        }
-
-        .subnav-content ul li, .subnav-contentLanguage ul li { 
-          padding-bottom: 5% ;
-        }
-
-        .idAdvertLeft0 p, .idAdvertRight0 p, #idInputContact div , #idInputLogin  div, #idInputSignUp div{
-          font-size: 1rem;
-        }
-
-        .idAdvertLeft1 p, .idAdvertLeft2 p, .idAdvertLeft3 p, .idAdvertRight1 p, .idAdvertRight2 p, .idAdvertRight3 p {
-          font-size: 0.60rem;
-          padding-top: 40%;
-        }
-
-        #idLandingImg p {
-          font-size: 2.5rem;
-        }
-
-        .BodyProductList {
-          display: none;
-        }
-
-        .BodyAsideLeft, .BodyAsideRight {
-          display: inline-block;
-        }
-
-        .BodyMiddle {
-          width: 70%;
-        }
+  /* Styling all links of the footer and navigation bar*/ 
+  .ClassGetInTouch ul, .ClassMyAccount ul, .ClassAboutUs ul, .ClassCopyright ul, .subnav-content, .subnav-contentLanguage { 
+    font-size: 0.50em;
+  }
+  .subnav-content ul li, .subnav-contentLanguage ul li { 
+    padding-bottom: 5% ;
+  }
+  /* Styling the texts on left and right of the main container and on all forms*/       
+  .idAdvertLeft0 p, .idAdvertRight0 p, #idInputContact div , #idInputLogin  div, #idInputSignUp div {
+    font-size: 1rem;
+    font-weight: bolder;
   }
   
-  #idSpanLogo {
-    float: left;
-    margin-left: 2%;
-    margin-top: 0%;
-    padding: 1%;
-    background-color: #af7004;
-    color: white;
-    border-radius: 40% 40% 40% 40% ;
-    vertical-align: middle;
+  /* Styling the texts of the links of the  advert images*/ 
+  .idAdvertLeft1 p, .idAdvertLeft2 p, .idAdvertLeft3 p, .idAdvertRight1 p, .idAdvertRight2 p, .idAdvertRight3 p {
+    font-size: 0.50rem;
+    padding-top: 50%;
+  }
+
+  /* Styling the texts of the landing image*/ 
+  #idLandingImg p {
+    font-size: 1rem;
+  }
+  /* The advert images by the sides will not be displayed by the sides for a very small viewport */
+  .BodyAsideLeft, .BodyAsideRight {
+    display: none;
+  }
+  /* The advert images are displayed under the main content of the page */
+  .BodyProductList {
+    display: block;
+  }
+  /* styling the main conten of the page to be at 100% of the small viewport*/ 
+  .BodyMiddle {
+    width: 100%;
+  }
+}
+
+  /* Mediem screens */
+  /* The same comments of the small viewport above applies here also */
+
+@media screen and (min-width: 401px)  and (max-width: 600px) {
+     
+  body {
+        font-size: 0.75em;
+  }
+
+  #idSpanMKT, #idSpanLogo {
+    font-size: 200%;
+  }
+  .ClassGetInTouch ul, .ClassMyAccount ul, .ClassAboutUs ul, .ClassCopyright ul, .subnav-content, .subnav-contentLanguage { 
+    font-size: 0.90em;
+  }
+
+  .subnav-content ul li, .subnav-contentLanguage ul li { 
+    padding-bottom: 5% ;
+  }
+
+  .idAdvertLeft0 p, .idAdvertRight0 p, #idInputContact div , #idInputLogin  div, #idInputSignUp div {
+    font-size: 1rem;
+  }
+
+  .idAdvertLeft1 p, .idAdvertLeft2 p, .idAdvertLeft3 p, .idAdvertRight1 p, .idAdvertRight2 p, .idAdvertRight3 p {
+    font-size: 0.60rem;
+    padding-top: 40%;
+  }
+
+  #idLandingImg p {
+    font-size: 1.4rem;
+  }
+
+  .BodyProductList {
+    display: none;
   }
 
   .BodyAsideLeft, .BodyAsideRight {
-    /*background-color: rgb(170, 166, 166);*/
-    width: 15%;
-    overflow: hidden;
-   /* display: inline-block;*/
-    vertical-align: top;
-  }
-  .BodyMiddle {
-    /*background-color: rgb(170, 166, 166);*/
-    /*width: 70%;*/
     display: inline-block;
-    vertical-align: top;
   }
 
-  /*nav {*/
-    /*background-color: rgb(170, 166, 166);*/
-  /*  position: fixed;
-    top: 19%;
-    width: 100%;*/
-   /* vertical-align: top;*/
- /* } */
+  .BodyMiddle {
+    width: 70%;
+  }
+}
 
-  /*header {
-     position: fixed;
-     top: 0%;
-     width: 100%;
-  } */
+/*  Large screens */
+/* The same comments of the small viewport above applies here also */
+
+@media screen and (min-width: 601px) {
+  body {
+    font-size: 1.1em;
+  }
   
+  #idSpanMKT, #idSpanLogo {
+    font-size: 250%;
+  }
+
+  .ClassGetInTouch ul, .ClassMyAccount ul, .ClassAboutUs ul, .ClassCopyright ul, .subnav-content, .subnav-contentLanguage { 
+      font-size: 0.90em;
+  }
+
+  .subnav-content ul li, .subnav-contentLanguage ul li { 
+    padding-bottom: 5% ;
+  }
+
+  .idAdvertLeft0 p, .idAdvertRight0 p, #idInputContact div , #idInputLogin  div, #idInputSignUp div{
+    font-size: 1rem;
+  }
+
+  .idAdvertLeft1 p, .idAdvertLeft2 p, .idAdvertLeft3 p, .idAdvertRight1 p, .idAdvertRight2 p, .idAdvertRight3 p {
+    font-size: 0.60rem;
+    padding-top: 40%;
+  }
+
+  #idLandingImg p {
+    font-size: 2.5rem;
+  }
+
+  .BodyProductList {
+    display: none;
+  }
+
+  .BodyAsideLeft, .BodyAsideRight {
+    display: inline-block;
+  }
+
+  .BodyMiddle {
+    width: 70%;
+  }
+}
+
+/* styling the container of the logo*/
+#idSpanLogo {
+  float: left;
+  margin-left: 2%;
+  margin-top: 0%;
+  padding: 1%;
+  background-color: #af7004;
+  color: white;
+  border-radius: 40% 40% 40% 40% ;
+  vertical-align: middle;
+}
+
+/* Styling the containers of the advert images */
+.BodyAsideLeft, .BodyAsideRight {
+  width: 15%;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+/* Styling the containers of the main content of the pages */
+.BodyMiddle {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Styling the footer menu of the pages to be at a fixed position*/
 .navFooter {
-  /*background-color: rgb(170, 166, 166);*/
   background-color: rgb(88, 88, 89);
   position: fixed;
   bottom: 0%;
@@ -206,11 +216,13 @@ body {
 
 }
 
+/* Styling the boxes of Getintouch menu of the footer menu*/
 #IdListGetInTouch1, #IdListGetInTouch2 {
   display: inline-block;
   vertical-align: top;
 }
 
+/* Styling the container of the landing page image and the construction image page*/
 #idLandingImg {
   background-image: url("../images/farmer.jpg");
 }
@@ -221,7 +233,6 @@ body {
 
 #idLandingImg, #idLandingImgCons {
   background-size:100% 100%;
-  /*float: left;*/
   background-repeat: no-repeat;
   box-sizing: border-box;
   height: 100%;
@@ -232,6 +243,7 @@ body {
   padding-bottom: 15%
 }
 
+/* Styling the paragraph box within the container of the landing page image and the construction image page*/
 #idLandingImg p, #idLandingImgCons p {
   color: rgb(220, 147, 29);
   float: left;
@@ -243,11 +255,8 @@ body {
   margin-top: 2%;
   margin-bottom: 20%;
 }
-
+/* Styling the container of the banner */ 
 .banner {
-  /*float: left;*/
-  /*background-color: rgb(91, 193, 237);*/
-
   background-color: #5faf04;
   background-size: 100% 100%;
   display: block;
@@ -259,7 +268,7 @@ body {
   color: white;
   white-space: normal;
 }
-
+/* Styling  the box paragraph within the container of the banner */ 
 .banner p {
   margin-top: 0;
   margin-bottom: 0;
@@ -268,130 +277,114 @@ body {
   width: 100%;
 }
 
-/* The navigation menu */
+/* Styling the main navigation menu container and some boxes of links within */
 .navbar {
-    overflow: hidden;
-     background-color:  rgb(88, 88, 89);
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    /*float: left;
-    z-index: 1;*/
-  }
+  overflow: hidden;
+  background-color:  rgb(88, 88, 89);
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
   
-  /* Navigation links */
-   #LinkHome, #LinkContact {
-    float: left;
-   /* font-size: 0.75em;*/
-    color: white;
-    text-align: center;
-    padding: 5px 5px;
-    text-decoration: none;
-  }
+#LinkHome, #LinkContact {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
 
-  #LinkSignIn, #LinkSignUp {
-    float: right;
-    /*font-size: 0.75em;*/
-    color: rgb(91, 193, 237);
-    text-align: center;
-    padding: 5px 5px;
-    text-decoration: none;
-   /* background-color: black;*/
-  }
+#LinkSignIn, #LinkSignUp {
+  float: right;
+  color: rgb(91, 193, 237);
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
   
-  /* The subnavigation menu */
-  .subnav {
-    float: left;
-    overflow: hidden;
-  }
+.subnav {
+  float: left;
+  overflow: hidden;
+}
 
-  .subnavLanguage {
-    float: right;
-    overflow: hidden;
-  }
+.subnavLanguage {
+  float: right;
+  overflow: hidden;
+}
   
-  /* Subnav button */
-  .subnav .subnavbtn, .subnavLanguage .subnavbtnLanguage {
-    /*font-size: 0.75em;*/
-    border: none;
-    outline: none;
-    color: white;
-    padding: 5px 5px;
-    background-color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    margin: 0;
-    overflow: hidden;
-  } 
+.subnav .subnavbtn, .subnavLanguage .subnavbtnLanguage {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 5px;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+} 
+   
+/* Styling the sub menu navigation containers to the absolute position and hidden*/
+.subnav-content, .subnav-contentLanguage {
+  display: none;
+  position: absolute;
+  background-color: rgb(238, 238, 238);
+  width: 10%;
+  list-style: none;
+  text-align: left;
+  overflow: hidden;
+  white-space: normal;
+}
   
-  /* Add a red background color to navigation links on hover */
-  /*.navbar a:hover, .subnav:hover .subnavbtn, .subnavLanguage:hover .subnavbtnLanguage{
-    background-color: rgba(255, 255, 255, 0.386);
-  }*/
-  
-  /* Style the subnav content - positioned absolute */
-  .subnav-content, .subnav-contentLanguage {
-    display: none;
-    position: absolute;
-    background-color: rgb(238, 238, 238);
-    width: 10%;
-    list-style: none;
-    /*z-index: 1;*/
-    text-align: left;
-    overflow: hidden;
-    white-space: normal;
-  }
-  
-  /* Style the subnav links */
-  .subnav-content a, .subnav-contentLanguage a {
-    float: left;
-    color: black;
-    text-decoration: none;
-  }
+.subnav-content a, .subnav-contentLanguage a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
 
-  .subnav-content ul, .subnav-contentLanguage ul {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 5%;
-  }
+.subnav-content ul, .subnav-contentLanguage ul {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+}
   
-   /* Add a grey background color on hover */
-  
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content, .subnavLanguage:hover .subnav-contentLanguage {
-    display: block;
-    overflow: hidden;
-  }
+/* making the sub menus to be visible when hoving the mouse on the sub menu parent container */
+.subnav:hover .subnav-content, .subnavLanguage:hover .subnav-contentLanguage {
+  display: block;
+  overflow: hidden;
+}
 
-  .subnav:hover , .subnavLanguage:hover,  #LinkHome:hover, #LinkContact:hover, #LinkSignIn:hover, #LinkSignUp:hover {
-    background-color: rgba(129, 129, 129, 0.903);
-  }
+/* Styling the sub-menu, and links containers on hoving with mouse */
+.subnav:hover , .subnavLanguage:hover,  #LinkHome:hover, #LinkContact:hover, #LinkSignIn:hover, #LinkSignUp:hover {
+  background-color: rgba(129, 129, 129, 0.903);
+}
   .subnav-content a:hover, .subnav-contentLanguage a:hover  {
   background-color: #e7e45ee7;
     
 }
 
+/*  styling the containers, their paragraphs and their links within the footer*/
+.ClassCopyright, .ClassAboutUs, .ClassMyAccount, .ClassGetInTouch {
+  display: inline-block;
+  vertical-align: top; 
+  margin-right: 0.5%;
+  margin-left: 1%;
+} 
 
-  .ClassCopyright, .ClassAboutUs, .ClassMyAccount, .ClassGetInTouch {
-     display: inline-block;
-     vertical-align: top; 
-     margin-right: 0.5%;
-     margin-left: 1%;
-  } 
+.ClassCopyright p, .ClassAboutUs p, .ClassMyAccount p, .ClassGetInTouch p {
+  margin-top: 5%;
+  margin-bottom: 0.5%;
+} 
 
-  .ClassCopyright p, .ClassAboutUs p, .ClassMyAccount p, .ClassGetInTouch p {
-    margin-top: 5%;
-    margin-bottom: 0.5%;
- } 
+.ClassCopyright ul a, .ClassAboutUs ul a, .ClassMyAccount ul a, .ClassGetInTouch ul a {
+  color: rgb(91, 193, 237);
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+} 
 
-  .ClassCopyright ul a, .ClassAboutUs ul a, .ClassMyAccount ul a, .ClassGetInTouch ul a {
-    color: rgb(91, 193, 237);
-    margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
- } 
-
+/* Styling the Forms containers and their paragraphs*/
  #idformLogin p,  #idformSignUp p, #idformContact p {
     font-size: x-large;
     font-weight: bolder;
@@ -413,6 +406,7 @@ body {
   padding: 1%;
 }
 
+/* Stylng the containers of the advert images and the paragraph boxes within */
 .idAdvertLeft0, .idAdvertLeft1, .idAdvertLeft2, .idAdvertLeft3, .idAdvertRight0, .idAdvertRight1, .idAdvertRight2, .idAdvertRight3 {
   display: block;
   white-space: normal;
@@ -440,6 +434,7 @@ body {
   
 }
 
+/* adding animation frames to the advert images*/
 @keyframes adVertLeft1 {
     from {
       background-image: url("../images/tomato.jpg");
