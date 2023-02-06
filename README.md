@@ -26,14 +26,14 @@ From our pespective both audiences are our customers :
   - it is customized according to the type of customer on log on and contains much more links.
 
 
- ![Nav bar Image](../CodeInsttute-Project1-HTML-CSS/images/NavBarImgRM.jpg)
+ ![Nav bar Image](images/NavBarImgRM.jpg)
 
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to show potential customers what the platform is for.<p></p>
 
-  ![Landing image](../CodeInsttute-Project1-HTML-CSS/images/LandingImgRM.jpg)
+  ![Landing image](images/LandingImgRM.jpg)
 
 - __The Advert : animation images__
 
@@ -50,7 +50,7 @@ From our pespective both audiences are our customers :
 - __The Footer__ 
 
   - The footer section includes links to the relevant links on the website. <p></p>
-![Footer image](../CodeInsttute-Project1-HTML-CSS/images/FooterImgRM.jpg)
+![Footer image](images/FooterImgRM.jpg)
 
 - __The Sign Up Page__
 
@@ -79,17 +79,17 @@ After testing all the HTML pages locally, the HTML and CSS codes were also teste
    
    - __Computer browsers__
 
-       ![Index page image](../CodeInsttute-Project1-HTML-CSS/images/indexImgRM.jpg) <p></p>
-       ![Log on page image](../CodeInsttute-Project1-HTML-CSS/images/LoginImgRM.jpg) <p></p>
-       ![Contact page image](../CodeInsttute-Project1-HTML-CSS/images/ContactImgRM.jpg) <p></p>
+       ![Index page image](images/indexImgRM.jpg) <p></p>
+       ![Log on page image](images/LoginImgRM.jpg) <p></p>
+       ![Contact page image](images/ContactImgRM.jpg) <p></p>
      
      When strechting the window of the browser. <p></p>
 
-       ![Landing page streched image](../CodeInsttute-Project1-HTML-CSS/images/IndexStrechedImgRM.jpg) <p></p>
+       ![Landing page streched image](images/IndexStrechedImgRM.jpg) <p></p>
 
    - __Mobile phone browsers__
 
-       ![Phone Index page image](../CodeInsttute-Project1-HTML-CSS/images/IndexPhoneImgRM.jpg) <p></p>
+       ![Phone Index page image](images/IndexPhoneImgRM.jpg) <p></p>
 
 ### Validator Testing 
 
@@ -97,13 +97,13 @@ After testing all the HTML pages locally, the HTML and CSS codes were also teste
 
   - No errors were returned when passing through the official W3C validator. I tested by pasting the entire html code of each page directly.
   
-       ![W3C validator](../CodeInsttute-Project1-HTML-CSS/images/IndexHtmlValidatorImgRM.jpg) <p></p>
+       ![W3C validator](images/IndexHtmlValidatorImgRM.jpg) <p></p>
 
 - __CSS__
 
   - No errors were found when passing through the official Jigsaw validator. I tested by pasting the entire CSS code directly.
 
-       ![(Jigsaw) validator](../CodeInsttute-Project1-HTML-CSS/images/IndexCssValidatorImgRM.jpg) <p></p>
+       ![(Jigsaw) validator](images/IndexCssValidatorImgRM.jpg) <p></p>
 
 ### Unfixed Bugs
 
