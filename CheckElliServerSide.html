@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    console.log("Example to read line by line text");
+    const f = require('fs');
+    const readline = require('readline');
+    var user_file = 'ElliCustomers.txt';
+    var r = readline.createInterface({
+        input : f.createReadStream(user_file)
+    });
+    r.on('line', function (text) {
+    console.log(text);
+    });
+
+</script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph</p>
+</body>
+</html>

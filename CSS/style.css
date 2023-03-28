@@ -385,13 +385,13 @@ main {
 } 
 
 /* Styling the Forms containers and their paragraphs*/
- #idformLogin p,  #idformSignUp p, #idformContact p {
+ #idformLogin p,  #idformSignUp p, #idformContact p, #idformElliCheck p {
     font-size: x-large;
     font-weight: bolder;
     text-align: center;
 }
 
-#idInputLogin, #idInputSignUp, #idInputContact {
+#idInputLogin, #idInputSignUp, #idInputContact, #idInputElliCheck {
   background-color: rgb(208, 205, 205);
   text-align: center;
   margin-top: 5%;
@@ -405,6 +405,17 @@ main {
   display: block;
   padding: 1%;
 }
+
+#idInputElliCheck div {
+  display: inline-block;
+  padding: 1%;
+}
+
+#searchinput {
+  width: 60%;
+  padding: 1%;
+}
+
 
 /* Stylng the containers of the advert images and the paragraph boxes within */
 .idAdvertLeft0, .idAdvertLeft1, .idAdvertLeft2, .idAdvertLeft3, .idAdvertRight0, .idAdvertRight1, .idAdvertRight2, .idAdvertRight3 {
