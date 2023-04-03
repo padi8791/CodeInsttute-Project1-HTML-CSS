@@ -385,13 +385,13 @@ main {
 } 
 
 /* Styling the Forms containers and their paragraphs*/
- #idformLogin p,  #idformSignUp p, #idformContact p, #idformElliCheck p {
+ #idformLogin p,  #idformSignUp p, #idformContact p, #idformElliCheck p, #idformListWinners p, #idformLotoDraw p {
     font-size: x-large;
     font-weight: bolder;
     text-align: center;
 }
 
-#idInputLogin, #idInputSignUp, #idInputContact, #idInputElliCheck {
+#idInputLogin, #idInputSignUp, #idInputContact, #idInputElliCheck, #idListWinners, #idLotoDraw {
   background-color: rgb(208, 205, 205);
   text-align: center;
   margin-top: 5%;
@@ -399,6 +399,7 @@ main {
   margin-right: 20%;
   border-radius: 10% 10% 10% 10% ;
   white-space: normal;
+
 }
 
 #idInputLogin div, #idInputSignUp div, #idInputContact div {
@@ -414,6 +415,12 @@ main {
 #searchinput {
   width: 60%;
   padding: 1%;
+}
+
+#idLotoDraw button {
+  
+  display: inline-block;
+
 }
 
 

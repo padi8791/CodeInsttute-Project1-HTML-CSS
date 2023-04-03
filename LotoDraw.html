@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <script src="js/LotoDraw.js"></script>      
     <title>Buyam & Sellam</title>
 </head>
 <body>
@@ -113,33 +114,45 @@
       </div>
   </aside>
     <div class="BodyMiddle">
-          <div id="MainSection1">
-            <form action="Construction.html" method="post" id="idformLogin">
-              <div id="idInputLogin">
-                  <p id="idParaSignIn">Sing In</p>
+          <div id="MainSection1">                                                         
+            <form action="Construction.html" method="get" id="idformLotoDraw">
+              <div id="idLotoDraw">
+                  <p id="idParaLotoDrawMsg">Generate the list of winners of the Loto draw of this week</p>
+                  <p id="idParaLotoDrawErrorMsg"></p>                
                   <div>
-                    <label for="uname"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" id="uname" name="uname" required>
+                    <p>
+                      <span id="idSpanFirstWin">First Winner</span>
+                      <button type="button" onclick="SelectWinner(1)">Select</button>
+                    </p>
                   </div>
                   <div>
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" id="psw" name="psw" required>
+                    <p>
+                      <span id="idSpanSecondWin">Second Winner </span>
+                      <button type="button" onclick="SelectWinner(2)">Select</button>
+                    </p>  
                   </div>
                   <div>
-                     <button type="submit">Login</button>
-                     <button type="button" class="cancelbtn">Cancel</button>
+                      <p>
+                        <span id="idSpanThirdWin">Third Winner </span>
+                        <button type="button" onclick="SelectWinner(3)">Select</button>
+                      </p>
                   </div>
                   <div>
-                     <label>
-                       <input type="checkbox" checked="checked" name="remember"> Remember me
-                     </label>                    
-                     <span class="psw">Forgot <a href="construction.html">password?</a></span>
+                      <p>
+                        <span id="idSpanFourthWin">Fourth Winner</span>
+                        <button type="button" onclick="SelectWinner(4)">Select</button>  
+                      </p>
                   </div>
-              </div>
+                  <div>
+                    <p>
+                      <span id="idSpanFifthWin">Fifth Winner </span>
+                      <button type="button" onclick="SelectWinner(5)">Select</button>  
+                    </p>   
+                  </div>
+            </div>
             </form>
-          </div>
-            
-    </div>   
+          </div> 
+    </div>
     <div class="BodyProductList">
       <div class="idAdvertLeft0">
         <p>We collect from various farmers and make available in quantity</p>
