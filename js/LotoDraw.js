@@ -25,7 +25,7 @@ var TabListOfElliCustObj = [];
                 "Name": tmpTab[0],
                 "Email": tmpTab[1],
                 "Phone": tmpTab[2],
-            }
+            };
             TabListOfElliCustObj[counter2] = ElliCust;
 
             counter2++;
@@ -73,7 +73,7 @@ function readTextFile(file)
                 allText = rawFile.responseText;
             }
         }
-    }
+    };
     rawFile.open("GET", file,false);
     rawFile.send(null);
     return(allText);

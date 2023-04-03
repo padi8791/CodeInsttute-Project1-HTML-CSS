@@ -12,7 +12,7 @@ function readTextFile(file)
                 allText = rawFile.responseText;
             }
         }
-    }
+    };
     rawFile.open("GET", file,false);
     rawFile.send(null);
     return(allText);

@@ -11,7 +11,7 @@ function readTextFile(file)
                 allText = rawFile.responseText;
             }
         }
-    }
+    };
     rawFile.open("GET", file,false);
     rawFile.send(null);
     return(allText);
@@ -67,35 +67,35 @@ var TabListOfWinnersObj = [];
     let tmpHeader =  window.document.createElement("th");
     tmpHeader.innerHTML = "No";
     tmpHeader.style.border = "1px solid";
-    tmpHeader.style.fontSize = "large"; 
+    //tmpHeader.style.fontSize = "large"; 
     tmpHeader.style.width = "2%";
     tmpRow.appendChild(tmpHeader);
 
     tmpHeader =  window.document.createElement("th");
     tmpHeader.innerHTML = "FULL NAME";
     tmpHeader.style.border = "1px solid";
-    tmpHeader.style.fontSize = "large";
+    //tmpHeader.style.fontSize = "large";
     tmpHeader.style.width = "38%";
     tmpRow.appendChild(tmpHeader);
 
     tmpHeader =  window.document.createElement("th");
     tmpHeader.innerHTML = "EMAIL";
     tmpHeader.style.border = "1px solid";
-    tmpHeader.style.fontSize = "large";
+    //tmpHeader.style.fontSize = "large";
     tmpHeader.style.width = "25%";
     tmpRow.appendChild(tmpHeader);
 
     tmpHeader =  window.document.createElement("th");
     tmpHeader.innerHTML = "PHONE";
     tmpHeader.style.border = "1px solid";
-    tmpHeader.style.fontSize = "large";
+    //tmpHeader.style.fontSize = "large";
     tmpHeader.style.width = "10%";
     tmpRow.appendChild(tmpHeader);
 
     tmpHeader =  window.document.createElement("th");
     tmpHeader.innerHTML = "PRIZE";
     tmpHeader.style.border = "1px solid";
-    tmpHeader.style.fontSize = "large";
+    //tmpHeader.style.fontSize = "large";
     tmpHeader.style.width = "25%";
     tmpRow.appendChild(tmpHeader);
 
@@ -111,7 +111,7 @@ var TabListOfWinnersObj = [];
                 "Email": tmpTab[1],
                 "Phone": tmpTab[2],
                 "Prize": tmpTab[3],
-            }
+            };
             TabListOfWinnersObj[counter2] = Winner;
 
             tmpRow =  window.document.createElement("tr");
@@ -127,7 +127,7 @@ var TabListOfWinnersObj = [];
             tmpCell.innerHTML = 1 + counter2;
             tmpCell.style.border = "1px solid";
             tmpCell.style.display = "table-cell";
-            tmpCell.style.fontSize = "large"; 
+            //tmpCell.style.fontSize = "large"; 
             tmpCell.style.width = "2%"; 
             tmpCell.style.textAlign = "auto";
             tmpRow.appendChild(tmpCell);
@@ -136,7 +136,7 @@ var TabListOfWinnersObj = [];
             tmpCell.innerHTML = Winner.Name;
             tmpCell.style.border = "1px solid";
             tmpCell.style.display = "table-cell";
-            tmpCell.style.fontSize = "large"; 
+            //tmpCell.style.fontSize = "large"; 
             tmpCell.style.width = "38%";
             tmpCell.style.textAlign = "auto"; 
             tmpRow.appendChild(tmpCell);
@@ -146,7 +146,7 @@ var TabListOfWinnersObj = [];
             tmpCell.innerHTML = Winner.Email;
             tmpCell.style.border = "1px solid";
             tmpCell.style.display = "table-cell";
-            tmpCell.style.fontSize = "large";
+            //tmpCell.style.fontSize = "large";
             tmpCell.style.width = "25%";
             tmpCell.style.textAlign = "auto";  
             tmpRow.appendChild(tmpCell); 
@@ -155,7 +155,7 @@ var TabListOfWinnersObj = [];
             tmpCell.innerHTML = Winner.Phone;
             tmpCell.style.border = "1px solid";
             tmpCell.style.display = "table-cell";
-            tmpCell.style.fontSize = "large";
+            //tmpCell.style.fontSize = "large";
             tmpCell.style.width = "10%"; 
             tmpCell.style.textAlign = "auto"; 
             tmpRow.appendChild(tmpCell); 
@@ -164,7 +164,7 @@ var TabListOfWinnersObj = [];
             tmpCell.innerHTML = Winner.Prize;
             tmpCell.style.border = "1px solid";
             tmpCell.style.display = "table-cell";
-            tmpCell.style.fontSize = "large"; 
+            //tmpCell.style.fontSize = "large"; 
             tmpCell.style.width = "25%"; 
             tmpCell.style.textAlign = "auto";
             tmpRow.appendChild(tmpCell);  
